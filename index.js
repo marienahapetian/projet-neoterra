@@ -287,8 +287,7 @@ function get_score() {
 
 // Return promise containing json data ( questions )
 async function get_questions_data() {
-	//const json_file = "./questions.json";
-	const json_file = "./questions_short.json";
+	const json_file = "./questions.json";
 	const data = await fetch(json_file);
 	const data_json = await data.json();
 

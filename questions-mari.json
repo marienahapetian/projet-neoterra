@@ -1,0 +1,84 @@
+[
+	{
+		"economie": [
+			{
+				"id": 0,
+				"q": "Néo Terra cherche à réduire la consommation énergétique des entreprises en Nouvelle-Aquitaine pour favoriser une économie responsable.",
+				"r": [
+					"Vrae",
+					"Faux"
+				]
+			},
+			{
+				"id": 1,
+				"q": "Le plan prévoit de diminuer la consommation d’eau industrielle de 50 % dans la région.",
+				"r": [
+					"Vrae",
+					"Faux"
+				]
+			},
+			{
+				"id": 2,
+				"q": "Néo Terra promeut uniquement l’innovation technologique, sans s’intéresser aux formes d’innovation sociale ou au développement de l’économie solidaire.",
+				"r": [
+					"Faux",
+					"Vrae"
+				],
+				"expl": "Le plan inclut aussi l’innovation sociale et l’économie sociale et solidaire (ESS)"
+			},
+			{
+				"id": 3,
+				"q": "Néo Terra ignore la dimension sociale de l’économie : elle ne vise pas à améliorer l’emploi ni la formation des travailleurs.",
+				"r": [
+					"Faux",
+					"Vrae"
+				],
+				"expl": "Au contraire, le plan vise à adapter la formation, encourager les reconversions et soutenir l’emploi de proximité"
+			},
+			{
+				"id": 4,
+				"q": "L’un des objectifs est de favoriser le report modal vers des transports moins polluants pour la logistique, comme le rail ou le transport fluvial. ",
+				"r": [
+					"Vrae",
+					"Faux"
+				]
+			}
+		],
+		"agriculture": [
+			{
+				"id": 0,
+				"q": "Néo Terra encourage l’augmentation des émissions de gaz à effet de serre pour booster la production.",
+				"r": [
+					"Faux",
+					"Vrae"
+				],
+				"expl": "Le plan vise au contraire à les réduire"
+			},
+			{
+				"id": 1,
+				"q": "Le plan de Néo Terra prévoit la suppression des pesticides de synthèse d’ici 2030.",
+				"r": [
+					"Vrae",
+					"Faux"
+				]
+			},
+			{
+				"id": 2,
+				"q": "Le plan encourage la transmission des exploitations et l’amélioration des conditions de travail pour attirer de nouveaux agriculteurs.",
+				"r": [
+					"Vrae",
+					"Faux"
+				]
+			},
+			{
+				"id": 3,
+				"q": "La réduction de la distance entre la production et la consommation n’est pas une priorité de Néo Terra.",
+				"r": [
+					"Faux",
+					"Vrae"
+				],
+				"expl": "C’est une priorité importante"
+			}
+		]
+	}
+]

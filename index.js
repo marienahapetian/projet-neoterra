@@ -8,15 +8,10 @@ let user_responses = [];
 // Current question id
 let current_question_id = 0;
 
-// Delay at the start of the game
-const start_game_delay = 5;
-
 // Delay before timeout in question
 const response_delay = 20;
-
 // Intervals/Timeouts declaration
 let timer_start;
-let start_interval;
 let timer_interval;
 let timer_timeout;
 
@@ -24,15 +19,6 @@ let timer_timeout;
 
 // ---------- HTML CREATION ---------- //
 
-// Creates timer for game start and adds it to the DOM
-function create_start_game() {
-	document.body.innerHTML = "";
-
-	const timer = document.createElement("p");
-	timer.id = "start_timer";
-
-	document.body.appendChild(timer);
-}
 // Create question layout and adds it to the DOM
 function create_question_layout(id) {
 	// Clear body
@@ -170,11 +156,6 @@ function create_bilan_container() {
 		bilan_left.append(bilan_text, restart_button);
 	}
 
-	//const bilan_right = document.createElement("div");
-
-	//const bilan_chart = document.createElement("canvas");
-	//new Chart(bilan_chart, create_pie_data());
-
 	save_score(get_total_points());
 	bilan_container.append(bilan_left);
 	document.body.appendChild(bilan_container);
@@ -223,7 +204,6 @@ function init_game() {
 	current_question_id = 0;
 	shuffle(questions);
 	user_responses = [];
-	globalThis.clearInterval(start_interval);
 	create_question_layout(current_question_id);
 }
 
@@ -231,12 +211,7 @@ function init_game() {
 function start_game() {
 	get_questions_data().then((result) => {
 		questions = result;
-		create_start_game();
-
-		timer_start = Date.now();
-		update_start_timer();
-		start_interval = globalThis.setInterval(update_start_timer, 1000);
-		globalThis.setTimeout(init_game, start_game_delay * 1000);
+		init_game();
 	});
 }
 
@@ -273,13 +248,6 @@ function load_progress() {
 	current_question_id = JSON.parse(sessionStorage.getItem("current_question_id"));
 	questions = JSON.parse(sessionStorage.getItem("questions"));
 	user_responses = JSON.parse(sessionStorage.getItem("user_responses"));
-}
-
-// Called to update timer display
-function update_start_timer() {
-	create_start_game();
-	const timer = document.getElementById("start_timer");
-	timer.textContent = start_game_delay - Math.floor((Date.now() - timer_start) / 1000);
 }
 
 // Called to update response timer display

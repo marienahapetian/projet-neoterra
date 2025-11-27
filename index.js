@@ -3,6 +3,7 @@
 let questions = [];
 let themes = [];
 
+let optionSelectors = ["A", "B", "C", "D"];
 // Booleans of user results
 let user_responses = [];
 
@@ -12,11 +13,11 @@ let current_question_id = 0;
 let current_theme_id = 0; //display questions by theme
 
 // Delay before timeout in question
-const response_delay = 20;
+const response_delay = 200;
 // Intervals/Timeouts declaration
-let timer_start;
-let timer_interval;
-let timer_timeout;
+// let timer_start;
+// let timer_interval;
+// let timer_timeout;
 
 // -------------------- FUNCTIONS -------------------- //
 
@@ -35,12 +36,14 @@ function create_question_layout(id) {
 
 	// Question
 	const question = document.createElement("div");
-	const question_nav = document.createElement("p");
+	// const question_nav = document.createElement("p");
+	const question_nav = document.createElement("span");
+	question_nav.className = "question-counter";
 	question_nav.textContent = `Question ${user_responses.length + 1}/${questions.length}`;
 	const question_text = document.createElement("p");
 	question_text.textContent = q["q"];
-	const question_timer = document.createElement("p");
-	question_timer.id = "question_timer";
+	// const question_timer = document.createElement("p");
+	// question_timer.id = "question_timer";
 
 	// Response
 	const response = document.createElement("div");
@@ -49,35 +52,39 @@ function create_question_layout(id) {
 	// Shuffle responses order
 	shuffle(responses);
 
+	let count = 0;
+
 	// For each response, creates and add a new element
 	for (const r of responses) {
-		response.appendChild(create_response_element(r, q["id"]));
+		response.appendChild(create_response_element(r, q["id"], count));
+		count++;
 	}
 
-	question.append(question_nav, question_text, question_timer);
+	// question.append(question_nav, question_text, question_timer);
+	question.append(question_nav, question_text);
 	question_container.append(question, response);
 	document.body.appendChild(question_container);
 
 	// Get current time
-	timer_start = Date.now();
+	// timer_start = Date.now();
 
 	// Update timer element
-	update_response_timer();
+	// update_response_timer();
 
 	// Set interval to update timer element
-	timer_interval = globalThis.setInterval(update_response_timer, 1000);
+	// timer_interval = globalThis.setInterval(update_response_timer, 1000);
 
 	// Set timeout for response
-	timer_timeout = globalThis.setTimeout(create_result_layout, response_delay * 1000);
+	// timer_timeout = globalThis.setTimeout(create_result_layout, response_delay * 1000);
 }
 
 // Creates response element and returns it
-function create_response_element(r, q_id) {
+function create_response_element(r, q_id, count) {
 	const response_layout = document.createElement("div");
 	response_layout.classList.add("response");
 
 	const response = document.createElement("div");
-	response.textContent = r;
+	response.textContent = optionSelectors[count] + ". " + r;
 	response.dataset["question_id"] = q_id;
 	add_response_listener(response);
 
@@ -96,8 +103,8 @@ function create_result_layout(result = false, expected = "", given = "") {
 	save_progress();
 
 	// Clear question/response interval and timeout
-	globalThis.clearInterval(timer_interval);
-	globalThis.clearTimeout(timer_timeout);
+	// globalThis.clearInterval(timer_interval);
+	// globalThis.clearTimeout(timer_timeout);
 
 	// Clear body
 	document.body.innerHTML = "";

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "q": "En Nouvelle-Aquitaine combien représentent en % les émissions de gaz à effet de serres?",
+    "r": ["38", "16", "32", "44"]
+  },
+  {
+    "id": 1,
+    "q": "Les offres ferroviaires sont elles en hausse ?",
+    "r": ["Vrai", "Faux"]
+  },
+  {
+    "id": 2,
+    "q": "Faciliter l'accès au logement pour les jeunes est il un enjeu de la région ?",
+    "r": ["Oui", "Non"]
+  },
+  {
+    "id": 3,
+    "q": "Combien de territoires sont engagés pour la revitalisation des centres-bourgs?",
+    "r": ["36", "70", "50", "102"]
+  },
+  {
+    "id": 4,
+    "q": "Lutter contre les ilôts de chaleur est il prévu ?",
+    "r": ["Oui", "Non"]
+  },
+  {
+    "id": 5,
+    "q": "Combien de dossier par an contribuent à l'attenuation des risques?",
+    "r": ["35", "40", "25", "30"]
+  },
+  {
+    "id": 6,
+    "q": "En 2023 combien de projet portent les ambitions de Neo Terra ?",
+    "r": ["40 %", "50%", "60%", "30%"]
+  }
+]

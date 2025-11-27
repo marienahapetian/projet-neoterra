@@ -1,29 +1,202 @@
 [
-	{ "id": 0, "q": "Capitale de la France ?", "r": ["Paris", "Istanbul", "Soumoulou", "Bayonne"] },
-	{ "id": 1, "q": "Troisième saison de l'année ?", "r": ["Automne", "Hiver", "Printemps", "La réponse D"] },
-	{ "id": 2, "q": "Comment je vais au travail ?", "r": ["Vélo", "A pieds", "Voiture", "J'y vais pas"] },
-	{ "id": 3, "q": "Ananas sur la pizza ?", "r": ["NON !", "Non", "Peut-être", "Oui"] },
-	{
-		"id": 4,
-		"q": "Le lait avant ou après les céréales ?",
-		"r": ["Après", "Avant", "En même temps", "Je n'en mange pas"]
-	},
-	{ "id": 5, "q": "Combien de roues dans une voiture ?", "r": ["1", "4", "5", "25 ( environ )"] },
-	{
-		"id": 6,
-		"q": "Comment appelle t-on un chien sans pattes ?",
-		"r": ["On l'appelle pas, on va le chercher", "Au pied !", "Saucisse", "Bill"]
-	},
-	{ "id": 7, "q": "65 x 9 ?", "r": ["585", "635", "615", "650"] },
-	{
-		"id": 8,
-		"q": "ADN ?",
-		"r": [
-			"Acide désoxyribonucléique",
-			"Aide et donation nouvelles",
-			"Arrêt des nomades",
-			"Autre déclenchement nefaste"
-		]
-	},
-	{ "id": 9, "q": "Rouge ou jaune ?", "r": ["Bleu", "Vert", "Rouge", "Jaune"] }
+  {
+    "id": 0,
+    "q": "Quel est le titre de l’Ambition 6 de Néo Terra ?",
+    "r": [
+      "Prévenir et soigner : une approche unifiée de la santé des écosystèmes",
+      "Améliorer l’accès aux transports",
+      "Développer l’industrie régionale",
+      "Réduire l’usage des technologies"
+    ]
+  },
+  {
+    "id": 1,
+    "q": "Quel concept relie la santé humaine, animale et végétale selon Néo Terra ?",
+    "r": [
+      "Une seule santé (One Health)",
+      "Santé énergétique",
+      "Santé environnementale seulement",
+      "Santé urbaine"
+    ]
+  },
+  {
+    "id": 2,
+    "q": "Quel objectif est fixé pour les déchets non récupérables du secteur santé d’ici 2030 ?",
+    "r": [
+      "Réduire de 30 % les déchets non récupérables",
+      "Les augmenter de 20 %",
+      "Les supprimer totalement",
+      "Ne pas intervenir sur ce domaine"
+    ]
+  },
+  {
+    "id": 3,
+    "q": "Quelle action concerne les instituts de formation sanitaires ?",
+    "r": [
+      "Les engager dans une démarche de transition écologique",
+      "Les fermer progressivement",
+      "Les éloigner des enjeux environnementaux",
+      "Supprimer leurs financements"
+    ]
+  },
+  {
+    "id": 4,
+    "q": "Quel outil évalue l’impact des projets financés sur l’environnement, l’économie et le social ?",
+    "r": [
+      "Le budget vert",
+      "Le plan alimentaire",
+      "Le fonds innovation",
+      "Le plan numérique"
+    ]
+  },
+  {
+    "id": 5,
+    "q": "Que vise Néo Terra concernant la médecine vétérinaire en zone rurale ?",
+    "r": [
+      "Favoriser les stages d'étudiants vétérinaires en zones rurales",
+      "Réduire les services vétérinaires ruraux",
+      "Fermer les cabinets vétérinaires",
+      "Supprimer les formations vétérinaires"
+    ]
+  },
+  {
+    "id": 6,
+    "q": "Quelles nouvelles méthodes Néo Terra souhaite-t-elle développer ?",
+    "r": [
+      "Préventives, diagnostiques et thérapeutiques",
+      "Uniquement thérapeutiques",
+      "Sans diagnostic nécessaire",
+      "Sans approche préventive"
+    ]
+  },
+  {
+    "id": 7,
+    "q": "Quel objectif concerne la santé globale à l’horizon 2027 ?",
+    "r": [
+      "Analyser tous les projets financés sous l’angle de la santé globale",
+      "Supprimer la dimension santé dans les financements",
+      "Financer uniquement des projets industriels",
+      "Limiter l’analyse aux projets agricoles"
+    ]
+  },
+  {
+    "id": 8,
+    "q": "Quelle communauté régionale doit regrouper décideurs, scientifiques et acteurs des trois santés ?",
+    "r": [
+      "La communauté régionale « Une seule santé »",
+      "La communauté des transports verts",
+      "La communauté du climat",
+      "La communauté numérique"
+    ]
+  },
+  {
+    "id": 9,
+    "q": "Quel objectif lie Néo Terra au bien-être animal ?",
+    "r": [
+      "Accompagner les éleveurs et préserver le bien-être animal",
+      "Augmenter les élevages intensifs",
+      "Ignorer la santé animale",
+      "Réduire les contrôles vétérinaires"
+    ]
+  },
+  {
+    "id": 10,
+    "q": "Quel est l’objectif principal de l’approche 'Une seule santé' portée par Néo Terra ?",
+    "r": [
+      "Comprendre les liens entre santé humaine, animale et environnementale",
+      "Former uniquement des professionnels de santé humaine",
+      "Développer des infrastructures numériques",
+      "Séparer les approches humaines et animales"
+    ]
+  },
+  {
+    "id": 11,
+    "q": "Quel enjeu majeur Néo Terra souhaite renforcer concernant les maladies infectieuses ?",
+    "r": [
+      "Améliorer la prévention des risques d’émergence de nouvelles zoonoses",
+      "Augmenter le nombre d’antibiotiques utilisés",
+      "Réduire la surveillance des animaux sauvages",
+      "Supprimer les études sur les vecteurs de maladies"
+    ]
+  },
+  {
+    "id": 12,
+    "q": "Quelle priorité concerne l’alimentation selon la stratégie santé de Néo Terra ?",
+    "r": [
+      "Promouvoir une alimentation saine, locale et durable",
+      "Encourager les aliments ultra-transformés",
+      "Développer l’importation massive de produits",
+      "Réduire la consommation de fruits et légumes"
+    ]
+  },
+  {
+    "id": 13,
+    "q": "Quel objectif vise la réduction des émissions polluantes dans les établissements de santé ?",
+    "r": [
+      "Réduire l’impact environnemental des activités de soins",
+      "Augmenter la consommation énergétique",
+      "Supprimer les normes environnementales",
+      "Diminuer la présence de recyclage"
+    ]
+  },
+  {
+    "id": 14,
+    "q": "Néo Terra encourage le développement de pratiques agricoles visant à réduire les risques sanitaires. Lesquelles ?",
+    "r": [
+      "Les pratiques agroécologiques",
+      "Les pratiques d’élevage intensif",
+      "Les pratiques entièrement chimiques",
+      "Les monocultures obligatoires"
+    ]
+  },
+  {
+    "id": 15,
+    "q": "Néo Terra veut réduire l’usage des antibiotiques en santé animale. Pourquoi ?",
+    "r": [
+      "Pour lutter contre l’antibiorésistance",
+      "Pour baisser les coûts de production",
+      "Pour accélérer la croissance animale",
+      "Pour remplacer les vétérinaires"
+    ]
+  },
+  {
+    "id": 16,
+    "q": "Quel objectif concerne la qualité de l’air dans les lieux publics selon Néo Terra ?",
+    "r": [
+      "Renforcer la surveillance et la prévention des pollutions atmosphériques",
+      "Réduire les mesures de qualité de l’air",
+      "Supprimer les normes de ventilation",
+      "Augmenter l’usage des combustibles fossiles"
+    ]
+  },
+  {
+    "id": 17,
+    "q": "Quelle démarche est encouragée dans les maisons de retraite et hôpitaux ?",
+    "r": [
+      "La transition écologique des établissements médico-sociaux",
+      "L’augmentation des déchets plastiques",
+      "La suppression des espaces verts",
+      "La réduction des activités de prévention"
+    ]
+  },
+  {
+    "id": 18,
+    "q": "Quel enjeu lié au changement climatique Néo Terra met en avant ?",
+    "r": [
+      "L’adaptation du système de santé aux risques climatiques",
+      "Ignorer les impacts du climat",
+      "Développer uniquement des cures thermales",
+      "Augmenter les émissions polluantes"
+    ]
+  },
+  {
+    "id": 19,
+    "q": "Quel objectif est associé à la prévention des maladies vectorielles (ex : moustiques) ?",
+    "r": [
+      "Renforcer la surveillance et la lutte contre les vecteurs",
+      "Supprimer les campagnes d’information",
+      "Arrêter les recherches sur les vecteurs",
+      "Encourager leur prolifération naturelle"
+    ]
+  }
 ]

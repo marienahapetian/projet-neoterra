@@ -1,0 +1,29 @@
+[
+	{ "id": 0, "q": "Capitale de la France ?", "r": ["Paris", "Istanbul", "Soumoulou", "Bayonne"] },
+	{ "id": 1, "q": "Troisième saison de l'année ?", "r": ["Automne", "Hiver", "Printemps", "La réponse D"] },
+	{ "id": 2, "q": "Comment je vais au travail ?", "r": ["Vélo", "A pieds", "Voiture", "J'y vais pas"] },
+	{ "id": 3, "q": "Ananas sur la pizza ?", "r": ["NON !", "Non", "Peut-être", "Oui"] },
+	{
+		"id": 4,
+		"q": "Le lait avant ou après les céréales ?",
+		"r": ["Après", "Avant", "En même temps", "Je n'en mange pas"]
+	},
+	{ "id": 5, "q": "Combien de roues dans une voiture ?", "r": ["1", "4", "5", "25 ( environ )"] },
+	{
+		"id": 6,
+		"q": "Comment appelle t-on un chien sans pattes ?",
+		"r": ["On l'appelle pas, on va le chercher", "Au pied !", "Saucisse", "Bill"]
+	},
+	{ "id": 7, "q": "65 x 9 ?", "r": ["585", "635", "615", "650"] },
+	{
+		"id": 8,
+		"q": "ADN ?",
+		"r": [
+			"Acide désoxyribonucléique",
+			"Aide et donation nouvelles",
+			"Arrêt des nomades",
+			"Autre déclenchement nefaste"
+		]
+	},
+	{ "id": 9, "q": "Rouge ou jaune ?", "r": ["Bleu", "Vert", "Rouge", "Jaune"] }
+]

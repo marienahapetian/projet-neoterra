@@ -1,0 +1,5 @@
+[
+	{ "id": 0, "q": "Capitale de la France ?", "r": ["Paris", "Istanbul", "Soumoulou", "Bayonne"] },
+	{ "id": 1, "q": "Troisième saison de l'année ?", "r": ["Automne", "Hiver", "Printemps", "La réponse D"] },
+	{ "id": 2, "q": "Comment je vais au travail ?", "r": ["Vélo", "A pieds", "Voiture", "J'y vais pas"] }
+]

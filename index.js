@@ -47,6 +47,7 @@ function create_question_layout(id) {
 
 	// Response
 	const response = document.createElement("div");
+	response.className = "response-options";
 	const responses = Array.from(q["r"]);
 
 	// Shuffle responses order
@@ -85,6 +86,7 @@ function create_response_element(r, q_id, count) {
 
 	const response = document.createElement("div");
 	response.textContent = optionSelectors[count] + ". " + r;
+	response.dataset.response = r;
 	response.dataset["question_id"] = q_id;
 	add_response_listener(response);
 
@@ -107,7 +109,8 @@ function create_result_layout(result = false, expected = "", given = "") {
 	// globalThis.clearTimeout(timer_timeout);
 
 	// Clear body
-	document.body.innerHTML = "";
+	// document.body.innerHTML = "";
+	document.querySelector(".response-options").innerHTML = "";
 
 	// Result container
 	const result_container = document.createElement("div");
@@ -116,24 +119,26 @@ function create_result_layout(result = false, expected = "", given = "") {
 	// Text display result
 	const result_text = document.createElement("p");
 	if (result) {
-		result_text.textContent = `Bravo ! La réponse était bien "${given}" !`;
+		result_text.innerHTML = `Bravo ! La réponse était bien <span class='green'>${given}</span> !`;
 	} else if (given != "") {
-		result_text.textContent = `Vous avez répondu "${given}" quand la bonne réponse était "${expected}", dommage !`;
+		result_text.innerHTML = `Vous avez répondu <span class='red'>${given}</span> quand la bonne réponse était <span class='green'>${expected}</span>, dommage !`;
 	} else {
 		result_text.textContent = "Vous avez été trop lent !";
 	}
 
 	// Text display good responses count
-	const result_count = document.createElement("p");
-	result_count.textContent = `Total de bonnes réponses : ${get_total_points()}`;
+	// const result_count = document.createElement("p");
+	// result_count.textContent = `Total de bonnes réponses : ${get_total_points()}`;
 
 	// Next question button
 	const result_button = document.createElement("button");
 	result_button.textContent = "Question suivante";
 	add_next_button_listener(result_button);
 
-	result_container.append(result_text, result_count, result_button);
-	document.body.appendChild(result_container);
+	// result_container.append(result_text, result_count, result_button);
+	result_container.append(result_text, result_button);
+	// document.body.appendChild(result_container);
+	document.querySelector(".response-options").appendChild(result_container);
 }
 
 // Creates bilan container and adds it to the DOM
@@ -179,7 +184,7 @@ function add_response_listener(r) {
 		const question_id = e.originalTarget.dataset["question_id"];
 		const question = get_question(question_id);
 		const good_response = question["r"][0];
-		const response = e.originalTarget.textContent;
+		const response = e.originalTarget.dataset.response;
 
 		// Create display result
 		create_result_layout(good_response == response, good_response, response);
@@ -308,9 +313,7 @@ async function get_questions_data() {
 		dataToReturn.push(...data_json[theme]);
 	}
 
-	console.log(dataToReturn);
-
-	// dataToReturn.shuffle();
+	shuffle(dataToReturn);
 	let toReturn = dataToReturn.map((question, i) => {
 		question.id = i;
 		return question;

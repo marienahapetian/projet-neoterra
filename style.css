@@ -28,8 +28,9 @@ body.show-bilan {
 	display: flex;
 	flex-direction: column;
 	width: 70%;
+	max-width: 750px;
 	/* height: 90%; */
-	gap: 40px;
+	gap: 20px;
 }
 
 /*  Glass card (effet premium) */
@@ -76,9 +77,12 @@ body.show-bilan {
 /* RÉPONSES */
 #question_container > div:last-child {
 	flex: 1;
-	display: grid;
+	/* display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 25px;
+	grid-gap: 25px; */
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
 
 /* Boutons premium */
@@ -87,11 +91,11 @@ body.show-bilan {
 	border: none;
 	border-radius: 18px;
 	/* padding: 25px; */
-	padding: 25px 15px;
+	padding: 25px 15px 25px 25px;
 	/* font-size: 24px; */
 	font-size: 20px;
 	color: #2e4634;
-	text-align: center;
+	text-align: left;
 	cursor: pointer;
 
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
@@ -108,7 +112,8 @@ body.show-bilan {
 
 /*  RESULTATS */
 #result_container {
-	width: 70%;
+	/* width: 70%; */
+	width: 100%;
 	background: rgba(255, 255, 255, 0.8);
 	padding: 40px;
 	border-radius: 20px;
@@ -120,7 +125,9 @@ body.show-bilan {
 
 #result_container p {
 	margin-bottom: 20px;
-	font-size: 28px;
+	/* font-size: 28px; */
+	font-size: 20px;
+	text-align: justify;
 }
 
 /*  BILAN */
@@ -158,10 +165,10 @@ body.show-bilan {
 button {
 	background: #5abf79;
 	color: white;
-	padding: 14px 28px;
+	padding: 10px 25px;
 	border: none;
 	border-radius: 12px;
-	font-size: 22px;
+	font-size: 20px;
 	cursor: pointer;
 	transition: 0.25s ease;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -170,4 +177,12 @@ button {
 button:hover {
 	background: #4aa869;
 	transform: translateY(-4px);
+}
+.red {
+	color: red;
+	text-decoration: line-through;
+}
+.green {
+	color: green;
+	font-weight: 600;
 }

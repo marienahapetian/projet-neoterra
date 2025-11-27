@@ -1,29 +1,169 @@
 [
-	{ "id": 0, "q": "Capitale de la France ?", "r": ["Paris", "Istanbul", "Soumoulou", "Bayonne"] },
-	{ "id": 1, "q": "Troisième saison de l'année ?", "r": ["Automne", "Hiver", "Printemps", "La réponse D"] },
-	{ "id": 2, "q": "Comment je vais au travail ?", "r": ["Vélo", "A pieds", "Voiture", "J'y vais pas"] },
-	{ "id": 3, "q": "Ananas sur la pizza ?", "r": ["NON !", "Non", "Peut-être", "Oui"] },
-	{
-		"id": 4,
-		"q": "Le lait avant ou après les céréales ?",
-		"r": ["Après", "Avant", "En même temps", "Je n'en mange pas"]
-	},
-	{ "id": 5, "q": "Combien de roues dans une voiture ?", "r": ["1", "4", "5", "25 ( environ )"] },
-	{
-		"id": 6,
-		"q": "Comment appelle t-on un chien sans pattes ?",
-		"r": ["On l'appelle pas, on va le chercher", "Au pied !", "Saucisse", "Bill"]
-	},
-	{ "id": 7, "q": "65 x 9 ?", "r": ["585", "635", "615", "650"] },
-	{
-		"id": 8,
-		"q": "ADN ?",
-		"r": [
-			"Acide désoxyribonucléique",
-			"Aide et donation nouvelles",
-			"Arrêt des nomades",
-			"Autre déclenchement nefaste"
-		]
-	},
-	{ "id": 9, "q": "Rouge ou jaune ?", "r": ["Bleu", "Vert", "Rouge", "Jaune"] }
+  {
+    "id": 0,
+    "q": "Capitale de la France ?",
+    "r": ["Paris", "Istanbul", "Soumoulou", "Bayonne"]
+  },
+
+  {
+    "id": 1,
+    "q": "Troisième saison de l'année ?",
+    "r": ["Automne", "Hiver", "Printemps", "La réponse D"]
+  },
+
+  {
+    "id": 2,
+    "q": "Comment je vais au travail ?",
+    "r": ["Vélo", "A pieds", "Voiture", "J'y vais pas"]
+  },
+
+  {
+    "id": 3,
+    "q": "Ananas sur la pizza ?",
+    "r": ["NON !", "Non", "Peut-être", "Oui"]
+  },
+
+  {
+    "id": 4,
+    "q": "Le lait avant ou après les céréales ?",
+    "r": ["Après", "Avant", "En même temps", "Je n'en mange pas"]
+  },
+
+  {
+    "id": 5,
+    "q": "Combien de roues dans une voiture ?",
+    "r": ["1", "4", "5", "25 ( environ )"]
+  },
+
+  {
+    "id": 6,
+    "q": "Comment appelle t-on un chien sans pattes ?",
+    "r": [
+      "On l'appelle pas, on va le chercher",
+      "Au pied !",
+      "Saucisse",
+      "Bill"
+    ]
+  },
+
+  { "id": 7, "q": "65 x 9 ?", "r": ["585", "635", "615", "650"] },
+
+  {
+    "id": 8,
+    "q": "ADN ?",
+    "r": [
+      "Acide désoxyribonucléique",
+      "Aide et donation nouvelles",
+      "Arrêt des nomades",
+      "Autre déclenchement nefaste"
+    ]
+  },
+
+  { "id": 9, "q": "Rouge ou jaune ?", "r": ["Bleu", "Vert", "Rouge", "Jaune"] },
+
+  {
+    "id": 10,
+    "q": "À quelle fréquence consultez-vous un médecin ?",
+    "r": ["Régulièrement", "Rarement", "Jamais", "Quand j'ai un souci grave"]
+  },
+
+  {
+    "id": 11,
+    "q": "Avez-vous des allergies connues ?",
+    "r": [
+      "Oui, alimentaires",
+      "Oui, médicamenteuses",
+      "Oui, saisonnières",
+      "Aucune"
+    ]
+  },
+
+  {
+    "id": 12,
+    "q": "Fumez-vous ?",
+    "r": ["Oui, quotidiennement", "Occasionnellement", "J'ai arrêté", "Jamais"]
+  },
+
+  {
+    "id": 13,
+    "q": "Avez-vous un traitement médical en cours ?",
+    "r": [
+      "Oui, quotidien",
+      "Oui, ponctuel",
+      "Non",
+      "Je ne souhaite pas répondre"
+    ]
+  },
+
+  {
+    "id": 14,
+    "q": "Dormez-vous suffisamment ?",
+    "r": ["Oui", "Non", "Parfois", "Je ne sais pas"]
+  },
+
+  {
+    "id": 15,
+    "q": "Votre niveau de stress actuel ?",
+    "r": ["Faible", "Modéré", "Élevé", "Très élevé"]
+  },
+  {
+    "id": 16,
+    "q": "Pratiquez-vous une activité physique régulière ?",
+    "r": [
+      "Oui, plusieurs fois par semaine",
+      "1 fois par semaine",
+      "Rarement",
+      "Jamais"
+    ]
+  },
+  {
+    "id": 17,
+    "q": "Comment décririez-vous votre alimentation ?",
+    "r": ["Équilibrée", "Plutôt équilibrée", "Peu équilibrée", "Je ne sais pas"]
+  },
+  {
+    "id": 18,
+    "q": "Avez-vous des problèmes de sommeil ?",
+    "r": ["Oui, souvent", "Parfois", "Rarement", "Jamais"]
+  },
+  {
+    "id": 19,
+    "q": "Avez-vous déjà eu des problèmes cardiaques ?",
+    "r": ["Oui", "Non", "Je ne sais pas", "Je préfère ne pas répondre"]
+  },
+  {
+    "id": 20,
+    "q": "Avez-vous déjà fait un examen médical cette année ?",
+    "r": ["Oui", "Non", "Je prévois bientôt", "Je n'ai pas l'habitude"]
+  },
+  {
+    "id": 21,
+    "q": "Souffrez-vous de douleurs chroniques ?",
+    "r": ["Oui", "Parfois", "Rarement", "Non"]
+  },
+  {
+    "id": 22,
+    "q": "Avez-vous déjà été hospitalisé(e) au cours des 12 derniers mois ?",
+    "r": ["Oui", "Non", "Je prévois un examen", "Je préfère ne pas répondre"]
+  },
+  {
+    "id": 23,
+    "q": "Comment évalueriez-vous votre niveau d'énergie au quotidien ?",
+    "r": ["Très bon", "Bon", "Faible", "Très faible"]
+  },
+  {
+    "id": 24,
+    "q": "Avez-vous des antécédents familiaux de maladies particulières ?",
+    "r": ["Oui", "Non", "Je ne sais pas", "Je préfère ne pas répondre"]
+  },
+  {
+    "id": 25,
+    "q": "Avez-vous déjà fait un dépistage médical (vision, audition, sang) ?",
+    "r": [
+      "Oui récemment",
+      "Oui mais il y a longtemps",
+      "Jamais",
+      "Je prévois d'en faire un"
+    ]
+  }
 ]

@@ -1,0 +1,50 @@
+[
+	{ "id": 0, "q": "Les activités humaines impactent l'environnement", "r": ["Oui", "Non"] },
+	{ "id": 1, "q": "L'etat actuel des ressources naturelles est préoccupant", "r": ["Oui", "Non"] },
+	{ "id": 2, "q": "La diversités des ecosystèmes en nouvelle aquitaine va bien", "r": ["Non", "Oui"] },
+	{
+		"id": 3,
+		"q": "Objectif de Neo-Terra sur le suhet de l'eau",
+		"r": [
+			"Préserver et restaurer la qualité écologique des milieux humides",
+			"Modifier chimiquement l'eau afin de supprimer toute pollution",
+			"Demander à tout le monde de prendre sa douche sous la pluie"
+		]
+	},
+	{ "id": 4, "q": "L'eau devient de plus en plus rare", "r": ["Oui, c'est inquiétant", "Oui, mais ça va", "Non"] },
+	{
+		"id": 5,
+		"q": "L'action de Neo-Terra a permis une baisse de 50% des prélevements d'eau des industriels entre 2012 et 2020'",
+		"r": ["Non, seulement de 25%", "Oui", "Non"]
+	},
+	{
+		"id": 6,
+		"q": "Selon Neo-Terra, comment stopper la disparition de la biodiversité ?",
+		"r": [
+			"Concilier le développement de la société humaine et la préservation du vivant",
+			"Planter des arbres dans son jardin",
+			"Mettre les industriels en prison",
+			"Devenir religieux et prier pour que tout s'arrange"
+		]
+	},
+	{
+		"id": 7,
+		"q": "Neo-Terra n'a pas pour objectif de",
+		"r": [
+			"Investir dans la recherche pour trouver une nouvelle source d'energie non polluante",
+			"Diminuer de 30% les consommations énergetiques par rapport à 2010",
+			"Viser 50% d'energie renouvelables en 2030",
+			"Accompagner les entreprises pour diminuer leur consommation energétique"
+		]
+	},
+	{
+		"id": 8,
+		"q": "Combien de territoires se sont engagés pour la nature depuis 2019 ?",
+		"r": ["185", "26", "150", "89"]
+	},
+	{
+		"id": 9,
+		"q": "En quelle année à été adopté la Stratégie Régionale Biodiversité ?",
+		"r": ["2022", "2012", "2019", "Elle n'a pas encore été adoptée"]
+	}
+]

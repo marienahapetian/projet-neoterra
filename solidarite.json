@@ -1,102 +1,102 @@
 [
 	{
-		"question": "1. L’ambition Solidarités vise principalement à :",
-		"choices": [
-			"A. Réduire les déchets",
-			"B. Renforcer la justice sociale et lutter contre les inégalités",
-			"C. Encourager la construction de routes",
-			"D. Développer le tourisme"
-		],
-		"answer": "B"
+		"id": 0,
+		"q": "L’ambition Solidarités vise principalement à :",
+		"r": [
+			"Réduire les déchets",
+			"Renforcer la justice sociale et lutter contre les inégalités",
+			"Encourager la construction de routes",
+			"Développer le tourisme"
+		]
 	},
 	{
-		"question": "2. Quel public est particulièrement ciblé par cette ambition ?",
-		"choices": [
-			"A. Les touristes",
-			"B. Les jeunes et étudiants",
-			"C. Les sportifs professionnels",
-			"D. Les retraités fortunés"
-		],
-		"answer": "B"
+		"id": 1,
+		"q": "Quel public est particulièrement ciblé par cette ambition ?",
+		"r": [
+			"Les touristes",
+			"Les jeunes et étudiants",
+			"Les sportifs professionnels",
+			"Les retraités fortunés"
+		]
 	},
 	{
-		"question": "3. Quel risque pèse sur la transition écologique sans solidarité ?",
-		"choices": [
-			"A. Plus de panneaux solaires",
-			"B. Aggravation des inégalités sociales",
-			"C. Des autoroutes inutiles",
-			"D. Trop de recyclage"
-		],
-		"answer": "B"
+		"id": 2,
+		"q": "Quel risque pèse sur la transition écologique sans solidarité ?",
+		"r": [
+			"Plus de panneaux solaires",
+			"Aggravation des inégalités sociales",
+			"Des autoroutes inutiles",
+			"Trop de recyclage"
+		]
 	},
 	{
-		"question": "4. Quelle action relève de l'ambition Solidarités ?",
-		"choices": [
-			"A. Installer des bornes électriques",
-			"B. Fournir du matériel informatique aux étudiants",
-			"C. Construire des centres commerciaux",
-			"D. Financer le transport aérien"
-		],
-		"answer": "B"
+		"id": 3,
+		"q": "Quelle action relève de l'ambition Solidarités ?",
+		"r": [
+			"Installer des bornes électriques",
+			"Fournir du matériel informatique aux étudiants",
+			"Construire des centres commerciaux",
+			"Financer le transport aérien"
+		]
 	},
 	{
-		"question": "5. L’ambition Solidarités inclut :",
-		"choices": [
-			"A. La persévérance scolaire",
-			"B. La création d’aéroports",
-			"C. La production d’énergie nucléaire",
-			"D. Le soutien au tourisme"
-		],
-		"answer": "A"
+		"id": 4,
+		"q": "L’ambition Solidarités inclut :",
+		"r": [
+			"La persévérance scolaire",
+			"La création d’aéroports",
+			"La production d’énergie nucléaire",
+			"Le soutien au tourisme"
+		]
 	},
 	{
-		"question": "6. Néo Terra veut une transition écologique qui n’exclut personne.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Vrai"
+		"id": 5,
+		"q": "Néo Terra veut une transition écologique qui n’exclut personne.",
+		"r": ["Vrai", "Faux"]
 	},
 	{
-		"question": "7. L'ambition Solidarités concerne uniquement la santé.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Faux"
+		"id": 6,
+		"q": "L'ambition Solidarités concerne uniquement la santé.",
+		"r": ["Vrai", "Faux"]
 	},
 	{
-		"question": "8. Le soutien au logement des jeunes fait partie des actions.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Vrai"
+		"id": 7,
+		"q": "Le soutien au logement des jeunes fait partie des actions de Solidarités.",
+		"r": ["Vrai", "Faux"]
 	},
 	{
-		"question": "9. L’ambition Solidarités veut réduire les inégalités territoriales.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Vrai"
+		"id": 8,
+		"q": "L’ambition Solidarités veut réduire les inégalités territoriales.",
+		"r": ["Vrai", "Faux"]
 	},
 	{
-		"question": "10. La précarité numérique des étudiants n’est pas une priorité dans Néo Terra.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Faux"
+		"id": 9,
+		"q": "La précarité numérique des étudiants n’est pas une priorité dans Néo Terra.",
+		"r": ["Vrai", "Faux"]
 	},
 	{
-		"question": "11. La solidarité vise aussi à faciliter l’accès à la mobilité pour tous.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Vrai"
+		"id": 10,
+		"q": "La solidarité vise aussi à faciliter l’accès à la mobilité pour tous.",
+		"r": ["Vrai", "Faux"]
 	},
 	{
-		"question": "12. Le soutien aux associations fait partie de l’ambition Solidarités.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Vrai"
+		"id": 11,
+		"q": "Le soutien aux associations fait partie de l’ambition Solidarités.",
+		"r": ["Vrai", "Faux"]
 	},
 	{
-		"question": "13. L'ambition Solidarités cherche à améliorer l'accès aux soins.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Vrai"
+		"id": 12,
+		"q": "L'ambition Solidarités cherche à améliorer l'accès aux soins.",
+		"r": ["Vrai", "Faux"]
 	},
 	{
-		"question": "14. Les personnes en situation de handicap ne sont pas concernées par cette ambition.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Faux"
+		"id": 13,
+		"q": "Les personnes en situation de handicap ne sont pas concernées par cette ambition.",
+		"r": ["Vrai", "Faux"]
 	},
 	{
-		"question": "15. La lutte contre la pauvreté est un axe important de la solidarité dans Néo Terra.",
-		"choices": ["Vrai", "Faux"],
-		"answer": "Vrai"
+		"id": 14,
+		"q": "La lutte contre la pauvreté est un axe important de la solidarité dans Néo Terra.",
+		"r": ["Vrai", "Faux"]
 	}
 ]
